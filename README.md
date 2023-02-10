@@ -1,5 +1,6 @@
 # Bank Customer Churn Prediction
-<img src ='images\isometric-bank-composition-visitors.avif'>
+![bank-teller-6330466_960_720](https://user-images.githubusercontent.com/113230957/218202121-fa8442c9-8d16-4611-a3fb-2cbf8fe71972.png)
+
 <hr>
 ## Overview
 
@@ -19,19 +20,22 @@ The bank's customers comprise of more Males than Females.
 There are also more female churned customers than there are male, showing that the likelihood of a female customer unsubscribing from the bank's services
 
 <br>
-<img src ='images\churn_gender.PNG'>
+
+![churn_gender](https://user-images.githubusercontent.com/113230957/218202307-fd4a2f54-ee16-4b06-a378-63d37961e2b8.PNG)
 
 <br>
 <hr>
 Germany has the highest number of churned customers, followed closely by France with Spain having the smallest number.
 
+![country churn](https://user-images.githubusercontent.com/113230957/218202425-2a426bca-e03f-4648-a12b-70a10f71894f.PNG)
+
 <br>
-<img src ='images\country churn.PNG'>
+
 <hr>
 Distribution of Churn among the numerical features
 
 <br>
-<img src ='images\churn vs various variables.PNG'>
+![churn vs various variables](https://user-images.githubusercontent.com/113230957/218202536-a56828db-e914-49d1-892d-5e7c7c40df27.PNG)
 
 
 <br>
@@ -42,13 +46,14 @@ Distribution of Churn among the numerical features
 1. Logistic regression - with a few transformations done to the data.
 
 <br>
-<img src ='images\logreg.PNG'>
+![logreg](https://user-images.githubusercontent.com/113230957/218202636-0ccb680e-8280-4201-bf5c-348af9c2ba4a.PNG)
+
 <hr>
 2. Random Forest Classifier
 A random forest model that uses a pipeline to pass transformers and GridSearchCv to find the the best hyperparameters for the model.
 
 <br>
-<img src ='images\rf.PNG'>
+![rf](https://user-images.githubusercontent.com/113230957/218202748-0021e57e-e073-46fe-b0df-768633167bc1.PNG)
 
 <br>
 <hr>
@@ -56,7 +61,7 @@ A random forest model that uses a pipeline to pass transformers and GridSearchCv
 A more complex model that is fitted to the data after feature engineering and more transformations are done to the data to maximize model performance.
 
 <br>
-<img src ='images\xgb.PNG'>
+![xgb](https://user-images.githubusercontent.com/113230957/218202783-aaba6f44-b76e-4898-b2b6-e2ffb765d692.PNG)
 
 <br>
 <hr>
@@ -66,18 +71,20 @@ Various evaluation metrics were employed but f1 score was the most significant a
 Overall the XGB classifier performed the best.
 
 <br>
-<img src ='images\model performances.PNG'>
+![model performances](https://user-images.githubusercontent.com/113230957/218202814-fb625112-c968-4799-8898-2bd52d3d28ca.PNG)
 <hr>
 <br>
+![rf cm](https://user-images.githubusercontent.com/113230957/218202833-5c3965b1-fe6f-4add-b901-695c30104886.PNG)
 
-<img src ='images\rf cm.PNG'>
 <hr>
 <br>
+![lr_cm](https://user-images.githubusercontent.com/113230957/218202857-59626aeb-8888-4e4c-a638-5dd32369200b.PNG)
 
-<img src ='images\xgb cm.PNG'>
 <hr>
 <br>
+![xgb cm](https://user-images.githubusercontent.com/113230957/218203047-0ebbccb6-ecd8-4d7c-b8a0-5572176742ac.PNG)
 
+<hr>
 ## Conclusion
 <hr>
 1. The best performing model was the XGB boost which had the highest accuracy score and tied with the Random Forest calssifier on the f1 score.
