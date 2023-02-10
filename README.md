@@ -42,6 +42,7 @@ Distribution of Churn among the numerical features
 
 ## Modeling
 3 models were used for classification:
+
 <hr>
 1. Logistic regression - with a few transformations done to the data.
 
@@ -72,6 +73,7 @@ Overall the XGB classifier performed the best.
 
 <br>
 ![model performances](https://user-images.githubusercontent.com/113230957/218202814-fb625112-c968-4799-8898-2bd52d3d28ca.PNG)
+
 <hr>
 <br>
 ![rf cm](https://user-images.githubusercontent.com/113230957/218202833-5c3965b1-fe6f-4add-b901-695c30104886.PNG)
@@ -85,6 +87,7 @@ Overall the XGB classifier performed the best.
 ![xgb cm](https://user-images.githubusercontent.com/113230957/218203047-0ebbccb6-ecd8-4d7c-b8a0-5572176742ac.PNG)
 
 <hr>
+
 ## Conclusion
 <hr>
 1. The best performing model was the XGB boost which had the highest accuracy score and tied with the Random Forest calssifier on the f1 score.
