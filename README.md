@@ -21,7 +21,8 @@ There are also more female churned customers than there are male, showing that t
 
 <br>
 
-![churn_gender](https://user-images.githubusercontent.com/113230957/218202307-fd4a2f54-ee16-4b06-a378-63d37961e2b8.PNG)
+![churn_gender](https://user-images.githubusercontent.com/113230957/218224314-6f026108-0e6e-4b84-9bf2-f61d325e4a66.PNG)
+
 
 <br>
 <hr>
