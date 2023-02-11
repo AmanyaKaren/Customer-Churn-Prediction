@@ -48,7 +48,8 @@ Distribution of Churn among the numerical features
 1. Logistic regression - with a few transformations done to the data.
 
 <br>
-![logreg](https://user-images.githubusercontent.com/113230957/218202636-0ccb680e-8280-4201-bf5c-348af9c2ba4a.PNG)
+![logreg](https://user-images.githubusercontent.com/113230957/218224415-00f36501-7107-4bb0-b013-3c561ad29792.PNG)
+
 
 <hr>
 2. Random Forest Classifier
